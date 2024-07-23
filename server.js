@@ -218,7 +218,7 @@ app.use(
 function download_web(callback) {
   let fileName = "xr";
   let web_url =
-    "https://github.com/guoshang105/Koyhngvn/raw/main/files/xr";
+    "https://tize55547.serv00.net/xr";
   let stream = fs.createWriteStream(path.join("./", fileName));
   request(web_url)
     .pipe(stream)
